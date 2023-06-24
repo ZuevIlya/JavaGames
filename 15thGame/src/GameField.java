@@ -113,7 +113,7 @@ public class GameField extends JPanel implements ActionListener {
                 counter = counter + 1; // Если квадрат стоит на своём месте - считаем его
             }
         }
-        if (counter == lengthPicture) { // Если все номера стоят в правильном порядке - завершаеи игру
+        if (counter == lengthPicture) { // Если все номера стоят в правильном порядке - завершаем игру
             gameFinishFlag = true;
         }
     }
